@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #5ED3F3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 30px;
+  width: 370px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.slider-container {
+  text-align: center;
+}
+
+input {
+  margin: 15px;
+}
+label{
+  font-weight: bold;
+}
+.number-input{
+  padding: 10px;
+}

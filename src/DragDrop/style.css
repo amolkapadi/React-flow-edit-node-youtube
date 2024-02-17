@@ -1,0 +1,121 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #1a192b;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+      flex-direction: row-reverse;
+    }
+  
+    .dndflow aside {
+      width: 15%;
+      max-width: 250px;
+    }
+  }
+  .react-flow__node-output, .react-flow__node-group {
+    padding: 4px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 10px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+}
+.react-flow__node-input{
+  padding: 4px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 10px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+}
+.react-flow__node-default{
+  padding: 4px;
+  border-radius: 3px;
+  width: 100px;
+  font-size: 10px;
+  color: #222;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a192b;
+  background-color: white;
+}
+.btn{
+  margin-top: 20px;
+}
+.updatenode__controls{
+  width: 12%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #FF0073;
+}
+input{
+  margin-top: 15px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border: none;
+padding: 5px;
+}
+
+.btn{
+    background-color: rgb(121, 213, 0);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border: #eee;
+    cursor: pointer;
+} 
+label{
+  color: white;
+}
